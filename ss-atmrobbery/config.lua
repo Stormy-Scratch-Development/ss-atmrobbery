@@ -1,0 +1,10 @@
+Config = {}
+Config.ATMRobItem = 'weapon_crowbar'
+Config.TargetLabel = "Rob ATM"
+Config.TargetIcon = "fas fa-piggy-bank"
+Config.RewardCash = math.random(500, 2100)
+Config.MinimumCops = 2
+Config.CorrectBlocks = 6
+Config.IncorrectBlocks = 3 
+Config.TimeToShow = 6 
+Config.TimeToLose = 40
