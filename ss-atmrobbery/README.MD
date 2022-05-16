@@ -15,7 +15,7 @@ ss-atmrobbery script by Stormy Scratch - https://discord.gg/BZnUFcUKRT
 
 ## Insert into #qb-dispatch --> cl_events.lua
 
-local function ATMRobbery()
+```local function ATMRobbery()
     local currentPos = GetEntityCoords(PlayerPedId())
     local locationInfo = getStreetandZone(currentPos)
     local gender = GetPedGender()
@@ -37,6 +37,6 @@ local function ATMRobbery()
         dispatchMessage = "ATM Robbery", -- message
         job = {"police"} -- jobs that will get the alerts
     })
-end exports('ATMRobbery', ATMRobbery)
+end exports('ATMRobbery', ATMRobbery)```
 
 and you are done! enjoy❤
